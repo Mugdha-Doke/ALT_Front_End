@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Lilita One', sans-serif;
+                                                
+}
+body{
+    font-family: 'Lilita One', sans-serif;
+   
+}
+
+#btn-group button .btn .btn-secondary{
+
+    background-color: rgb(238, 163, 163)!important;
+    text-align: center;
+}
+
+.poster{
+position: absolute;
+height: 350px;
+left: 4.38%;
+right: 50.7%;
+top: calc(50% - 350px/2 - 3px);
+
+mix-blend-mode: normal;
+border: 50px solid rgba(255, 144, 160, 0.5);
+box-sizing: border-box;
+border-radius: 25px;
+margin-top: 50px;
+}
+
+
+.inner{
+position: absolute;
+height: 239px;
+left: 9.42%;
+right: 9.62%;
+top: calc(50% - 239px/2 - 0.5px);
+
+font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+/* or 139% */
+
+text-align: center;
+letter-spacing: 0.04em;
+font-feature-settings: 'liga' off;
+
+color: #5DA6B0;
+}
+
